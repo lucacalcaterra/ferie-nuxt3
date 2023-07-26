@@ -4,6 +4,9 @@ dependencies:
   '@quasar/extras':
     specifier: ^1.16.5
     version: 1.16.5
+  '@quasar/quasar-ui-qcalendar':
+    specifier: 4.0.0-beta.15
+    version: 4.0.0-beta.15
   quasar:
     specifier: ^2.12.3
     version: 2.12.3
@@ -1171,6 +1174,10 @@ packages:
 
   /@quasar/extras@1.16.5:
     resolution: {integrity: sha512-3VAJS9NECr1OSHX674+3YvEMIlHclr81aZrEkoBtVqr+sX4In22Up44toua+qNFsxnoATPqzpwKOJxA3iAF71Q==}
+
+  /@quasar/quasar-ui-qcalendar@4.0.0-beta.15:
+    resolution: {integrity: sha512-M0yrCb/wkTM7bU+ad1vwNS0R9pqCeWikU1K31GKl/+5PG1c8FkFMceK0AOi9ao+AIzqEvkDCh/eFZUEY53v/mg==}
+    dev: false
 
   /@rollup/plugin-alias@5.0.0(rollup@3.26.3):
     resolution: {integrity: sha512-l9hY5chSCjuFRPsnRm16twWBiSApl2uYFLsepQYwtBuAxNMQ/1dJqADld40P0Jkqm65GRTLy/AC6hnpVebtLsA==}
