@@ -6,6 +6,11 @@ export default defineNuxtConfig({
   },
   modules: ["nuxt-quasar-ui"],
   quasar: {
-    /* */
+    css: ["app.sass", "~quasar-ui-qcalendar/src/css/calendar-day.sass"],
+
+    build: {
+      transpile: true,
+      transpileDependencies: [/quasar-ui-qcalendar[\\/]src/],
+    },
   },
 });
